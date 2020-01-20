@@ -8,9 +8,8 @@ public class GetMissingNumber {
 		int num = a.length;
 		total = (num+1)*(num+2)/2;
 		for(int i=0;i<num;i++)
-			total -= a[i];
+			{total -= a[i];}
 			return total;
-		
 
 	}
 	
